@@ -15,6 +15,7 @@
 		3DAEDB07206D0A55008B032B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDB06206D0A55008B032B /* main.m */; };
 		3DAEDB10206D0DDA008B032B /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDB0F206D0DDA008B032B /* HTTPService.m */; };
 		3DAEDB14206D3F72008B032B /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDB13206D3F72008B032B /* VideoCell.m */; };
+		3DAEDB18206D4A32008B032B /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDB17206D4A32008B032B /* Video.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		3DAEDB0F206D0DDA008B032B /* HTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
 		3DAEDB12206D3F72008B032B /* VideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
 		3DAEDB13206D3F72008B032B /* VideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		3DAEDB16206D4A32008B032B /* Video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		3DAEDB17206D4A32008B032B /* Video.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,7 @@
 		3DAEDAEB206D0A55008B032B = {
 			isa = PBXGroup;
 			children = (
+				3DAEDB15206D4A13008B032B /* Model */,
 				3DAEDB11206D3F2C008B032B /* View */,
 				3DAEDB0D206D0DBA008B032B /* Service */,
 				3DAEDAF6206D0A55008B032B /* CreatingNodeServer */,
@@ -95,6 +99,15 @@
 				3DAEDB13206D3F72008B032B /* VideoCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3DAEDB15206D4A13008B032B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DAEDB16206D4A32008B032B /* Video.h */,
+				3DAEDB17206D4A32008B032B /* Video.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +184,7 @@
 				3DAEDAFC206D0A55008B032B /* ViewController.m in Sources */,
 				3DAEDB14206D3F72008B032B /* VideoCell.m in Sources */,
 				3DAEDB10206D0DDA008B032B /* HTTPService.m in Sources */,
+				3DAEDB18206D4A32008B032B /* Video.m in Sources */,
 				3DAEDB07206D0A55008B032B /* main.m in Sources */,
 				3DAEDAF9206D0A55008B032B /* AppDelegate.m in Sources */,
 			);
