@@ -14,6 +14,7 @@
 		3DAEDB04206D0A55008B032B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDB02206D0A55008B032B /* LaunchScreen.storyboard */; };
 		3DAEDB07206D0A55008B032B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDB06206D0A55008B032B /* main.m */; };
 		3DAEDB10206D0DDA008B032B /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDB0F206D0DDA008B032B /* HTTPService.m */; };
+		3DAEDB14206D3F72008B032B /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDB13206D3F72008B032B /* VideoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3DAEDB06206D0A55008B032B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DAEDB0E206D0DDA008B032B /* HTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
 		3DAEDB0F206D0DDA008B032B /* HTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		3DAEDB12206D3F72008B032B /* VideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		3DAEDB13206D3F72008B032B /* VideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 		3DAEDAEB206D0A55008B032B = {
 			isa = PBXGroup;
 			children = (
+				3DAEDB11206D3F2C008B032B /* View */,
 				3DAEDB0D206D0DBA008B032B /* Service */,
 				3DAEDAF6206D0A55008B032B /* CreatingNodeServer */,
 				3DAEDAF5206D0A55008B032B /* Products */,
@@ -82,6 +86,15 @@
 				3DAEDB0F206D0DDA008B032B /* HTTPService.m */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		3DAEDB11206D3F2C008B032B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DAEDB12206D3F72008B032B /* VideoCell.h */,
+				3DAEDB13206D3F72008B032B /* VideoCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAEDAFC206D0A55008B032B /* ViewController.m in Sources */,
+				3DAEDB14206D3F72008B032B /* VideoCell.m in Sources */,
 				3DAEDB10206D0DDA008B032B /* HTTPService.m in Sources */,
 				3DAEDB07206D0A55008B032B /* main.m in Sources */,
 				3DAEDAF9206D0A55008B032B /* AppDelegate.m in Sources */,

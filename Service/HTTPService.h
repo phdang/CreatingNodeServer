@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface HTTPService : NSObject
+typedef void (^onComplete)(NSDictionary * __nullable dataDict, NSString * __nullable errMessage);
 
-+ (id) instance;
+
++ (id _Nullable ) instance;
+- (void)getTutorials:(nullable onComplete)completeionHandler;
 
 @end
