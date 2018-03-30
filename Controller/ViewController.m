@@ -10,6 +10,7 @@
 #import "HTTPService.h"
 #import "Video.h"
 #import "VideoCell.h"
+#import "VideoVC.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -25,6 +26,8 @@
     [self tableView].dataSource = self;
     
     [self tableView].delegate = self;
+    
+    [self tableView].rowHeight = 100.0;
     
     self.videoList = [[NSArray alloc]init];
     
@@ -85,16 +88,44 @@
         cell = [[VideoCell alloc]init];
     }
     
+    cell.layer.cornerRadius = 2.0;
+    
+    cell.layer.shadowColor = [UIColor colorWithRed:157.0/255.0 green:157.0/255.0 blue:157.0/255.0 alpha:0.8].CGColor ;
+    
+    cell.layer.shadowOpacity = 0.8;
+    
+    cell.layer.shadowRadius = 5.0;
+    
+    cell.layer.shadowOffset = CGSizeMake(0.0, 2.0);
+    
     return cell;
 }
 
 -(void) tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    Video *video = [self.videoList objectAtIndex:indexPath.row];
+    
+    VideoCell *vidCell = (VideoCell*)cell;
+    
+    [vidCell updateUI:video];
 }
 
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    Video *video = [self.videoList objectAtIndex:indexPath.row];
+    
+    [self performSegueWithIdentifier:@"goToVideoVC" sender:video];
+    
+    
+}
+
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    VideoVC *vc = (VideoVC*) segue.destinationViewController;
+    
+    vc.video = (Video*) sender;
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

@@ -8,7 +8,7 @@
 
 #import "HTTPService.h"
 
-#define URL_BASE "http://localhost:6069"
+#define URL_BASE "https://agile-stream-53575.herokuapp.com"
 #define URL_TUTORIALS "/tutorials"
 
 @implementation HTTPService
