@@ -27,6 +27,14 @@
     
     [super awakeFromNib];
     
+    self.titleLbl.numberOfLines = 0;
+    
+    [self.titleLbl sizeToFit];
+    
+    self.descLbl.numberOfLines = 0;
+    
+    [self.descLbl sizeToFit];
+    
     self.layer.cornerRadius = 2.0;
     
     self.layer.shadowColor = [UIColor colorWithRed:157.0/255.0 green:157.0/255.0 blue:157.0/255.0 alpha:0.8].CGColor ;

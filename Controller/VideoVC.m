@@ -22,6 +22,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.titleLbl.numberOfLines = 0;
+    
+    [self.titleLbl sizeToFit];
+    
+    self.descLbl.numberOfLines = 0;
+    
+    [self.descLbl sizeToFit];
+    
     self.webView.navigationDelegate = self;
     
     self.titleLbl.text = self.video.videoTitle;

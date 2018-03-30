@@ -42,7 +42,7 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HFA-2r-laq">
-                                                            <rect key="frame" x="0.0" y="10" width="320" height="120"/>
+                                                            <rect key="frame" x="0.0" y="10" width="375" height="120"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noImage" translatesAutoresizingMaskIntoConstraints="NO" id="q1S-oE-8QZ">
                                                                     <rect key="frame" x="5" y="0.0" width="127" height="80"/>
@@ -51,19 +51,19 @@
                                                                         <constraint firstAttribute="height" constant="80" id="ZXu-BR-L7g"/>
                                                                     </constraints>
                                                                 </imageView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOs Design in Photoshop" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vA-9l-APy">
-                                                                    <rect key="frame" x="137" y="0.0" width="175" height="30"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOs Design in Photoshop" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vA-9l-APy">
+                                                                    <rect key="frame" x="137" y="0.0" width="230" height="20"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="30" id="fdh-dI-2dA"/>
+                                                                        <constraint firstAttribute="height" constant="20" id="fdh-dI-2dA"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn how to install android studio and then go through this tutorial to build your very first app" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qS-P5-QoY">
-                                                                    <rect key="frame" x="137" y="30" width="175" height="50"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn how to install android studio and then go through this tutorial to build your very first app" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qS-P5-QoY">
+                                                                    <rect key="frame" x="137" y="20" width="230" height="30"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="50" id="xLY-8w-seF"/>
+                                                                        <constraint firstAttribute="height" constant="30" id="xLY-8w-seF"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="10"/>
                                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -152,7 +152,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAH-v4-eUX">
-                                        <rect key="frame" x="5" y="25" width="20" height="20"/>
+                                        <rect key="frame" x="8" y="25" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="wMV-HE-Lwb"/>
                                             <constraint firstAttribute="width" constant="20" id="xba-Ex-1Hw"/>
@@ -166,7 +166,7 @@
                                 <color key="backgroundColor" red="0.066666666669999999" green="0.57254901960000004" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="CAH-v4-eUX" secondAttribute="bottom" constant="15" id="Irx-KM-Elj"/>
-                                    <constraint firstItem="CAH-v4-eUX" firstAttribute="leading" secondItem="PNH-fm-yTH" secondAttribute="leading" constant="5" id="SuM-5F-kBt"/>
+                                    <constraint firstItem="CAH-v4-eUX" firstAttribute="leading" secondItem="PNH-fm-yTH" secondAttribute="leading" constant="8" id="SuM-5F-kBt"/>
                                     <constraint firstAttribute="height" constant="60" id="VkB-OY-L5O"/>
                                 </constraints>
                             </view>
@@ -181,19 +181,19 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to Support High Resolution on iOS - @1x @2x @3x" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3D3-aX-y2Z">
-                                <rect key="frame" x="10" y="265" width="360" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to Support High Resolution on iOS - @1x @2x @3x" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3D3-aX-y2Z">
+                                <rect key="frame" x="10" y="265" width="360" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Ouv-N1-Gcs"/>
+                                    <constraint firstAttribute="height" constant="20" id="Ouv-N1-Gcs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn how to support multiple screen resolutions and devices such as iPhone 4, iPhone 5, iPhone 6, iPhone 6 Plus" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Uu-o0-SoZ">
-                                <rect key="frame" x="10" y="320" width="360" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn how to support multiple screen resolutions and devices such as iPhone 4, iPhone 5, iPhone 6, iPhone 6 Plus" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Uu-o0-SoZ">
+                                <rect key="frame" x="10" y="290" width="360" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="j1J-x7-b0d"/>
+                                    <constraint firstAttribute="height" constant="30" id="j1J-x7-b0d"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
